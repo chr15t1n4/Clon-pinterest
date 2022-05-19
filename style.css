@@ -24,6 +24,9 @@ body{
     width: 100%;
         
     }
+    div.letra{
+        display: none;
+    }
 
     div.lupa{
         display: flex;
@@ -117,7 +120,10 @@ a:hover {
     color: rgb(0, 0, 0);
     
 }
-
+.letra{
+    color: rgb(113, 113, 113);
+    margin: 8px;
+}
 .campana{
     grid-area: campana;
     background-color:transparent;
