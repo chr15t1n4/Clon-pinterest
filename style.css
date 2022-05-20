@@ -10,14 +10,15 @@ body{
 @media screen and (min-width: 601px){
 
      div.lupa_2{
-        
+
         display: none;
     }
-   
-    
+
+
 }
 @media only screen and (max-width: 600px) {
     div.buscador {
+
     display: flex;
     justify-content: flex-end;
     background-color: transparent;
@@ -152,7 +153,5 @@ a:hover {
     grid-area: flecha;
 }
 
-h1{
-    width: auto;
-}
+
 
