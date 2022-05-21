@@ -18,22 +18,31 @@ body{
 }
 @media only screen and (max-width: 900px) {
     div.buscador {
-
+        
     display: flex;
     justify-content: flex-end;
     background-color: transparent;
-    width: 100%;
-
+    width: auto;
     }
     div.letra{
         display: none;
     }
 
     div.lupa{
-        display: flex;
-        justify-content:center;
-        align-items: center;
+
         display: none;
+    }
+    div.contenedor_buscador{
+        display: flex;
+        justify-content:flex-end;
+        align-items:center;
+    }
+   nav.contenedor{
+        display: grid;
+        grid-template-columns: 48px 48px  auto 48px 48px 48px 24px;
+        grid-template-areas: 
+        'logo  hoy contenedor_buscador campana mensaje  imagen flecha '  ;
+       
     }
 
 }
