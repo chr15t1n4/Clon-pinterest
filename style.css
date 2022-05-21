@@ -7,7 +7,7 @@ body{
     margin: 0;
 
 }
-@media screen and (min-width: 601px){
+@media screen and (min-width: 901px){
 
      div.lupa_2{
 
@@ -16,7 +16,7 @@ body{
 
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     div.buscador {
 
     display: flex;
@@ -94,8 +94,8 @@ body{
    text-decoration-line: none ;
    font-weight:bold;
 }
-a:hover {
-    color:#100;
+.diseño_imagen:hover {
+   filter:grayscale(2);
   }
 .contenedor_buscador{
     grid-area: contenedor_buscador;
@@ -151,6 +151,163 @@ a:hover {
 
 .flecha{
     grid-area: flecha;
+}
+
+.contenedor_imagenes {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(auto-fill, 236px);
+    grid-auto-rows: 10px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.diseño_imagen{
+    margin: 16px 8px;
+    border-radius: 16px;
+    background-color: rgb(112, 74, 165);
+}
+
+.imagen_pequeña_1{
+    grid-row-end: span 26;
+    background-image: url(https://i.pinimg.com/236x/48/99/7d/48997d29505fda6b407a0167c7cf63a3.jpg);
+   background-position: center;
+   background-size: cover;
+
+}
+
+.imagen_pequeña_2{
+  grid-row-end: span 26;
+  background: url(https://i.pinimg.com/236x/47/f7/dd/47f7dd0a94e3bec5edad0ea4370a7807.jpg);
+ background-position: center;
+ background-size: cover;
+
+}
+
+.imagen_pequeña_3{
+  grid-row-end: span 26;
+  background-image: url(https://i.pinimg.com/236x/6b/9a/91/6b9a91adda559cb1d284d8fdddd07b67.jpg);
+ background-position: center;
+ background-size: cover;
+
+}
+.imagen_pequeña_4{
+  grid-row-end: span 26;
+  background: url(https://i.pinimg.com/236x/88/2a/cd/882acdf8cad9931b722f18156365c9d3.jpg);
+ background-position: center;
+ background-size: cover;
+
+}
+
+.imagen_pequeña_5{
+grid-row-end: span 26;
+background: url(https://i.pinimg.com/236x/c0/1d/a5/c01da5598b9eacad6940f13642b31962.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+.imagen_pequeña_6{
+grid-row-end: span 26;
+background: url(https://i.pinimg.com/236x/68/f5/5e/68f55e3d4671baa78fe2cd4bb38daa42.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+.imagen_mediana_1 {
+    grid-row-end: span  33;
+    background: url(https://i.pinimg.com/236x/59/b3/61/59b361a68343fb447ac89614f11edceb.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.imagen_mediana_2 {
+  grid-row-end: span  33;
+  background: url(https://i.pinimg.com/236x/07/dc/3b/07dc3ba7ceb1015ddb6ed70a714bb94c.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.imagen_mediana_3 {
+  grid-row-end: span  33;
+  background:  url(https://i.pinimg.com/236x/5a/52/6b/5a526b063c1c9dfb1d2b49e31dfc38ca.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.imagen_mediana_4 {
+  grid-row-end: span  33;
+  background: url(https://i.pinimg.com/236x/95/07/88/95078832e7cc0e123eceb2db08b96a09.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.imagen_mediana_5 {
+grid-row-end: span  33;
+background: url(https://i.pinimg.com/236x/90/a9/1e/90a91efcace57bf85fdad9a7a9925374.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+.imagen_mediana_6 {
+grid-row-end: span  33;
+background: url( https://i.pinimg.com/236x/58/37/dd/5837ddfe8e758d17265200bdf38a6b37.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+#link{
+    color: black;
+    text-decoration: none;
+}
+.imagen_grande_1{
+grid-row-end: span 45;
+background: url(https://i.pinimg.com/236x/b4/ae/21/b4ae215b133942bb5be598d2ff53de79.jpg);
+background-position: center;
+background-size: cover;
+ 
+}
+
+.imagen_grande_2{
+grid-row-end: span 45;
+background: url(https://i.pinimg.com/236x/26/7f/70/267f708abe63e73643a8a6df60fa9e82.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.imagen_grande_3{
+grid-row-end: span 45;
+background: url(https://i.pinimg.com/236x/32/89/d6/3289d66aa73e11501081bcd78e845036.jpg);
+ background-position: center;
+background-size: cover;
+}
+
+.imagen_grande_4{
+grid-row-end: span 45;
+background: url(https://i.pinimg.com/236x/9e/d5/26/9ed5265b95ad3c2fc07bf378c97690f6.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.imagen_grande_5{
+grid-row-end: span 45;
+background: url(https://i.pinimg.com/236x/7e/c3/33/7ec3330b85055115fe0dd8738be1d509.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.imagen_grande_6{
+grid-row-end: span 45;
+background: url(https://i.pinimg.com/236x/15/b3/c4/15b3c4ac15e4b6a0fdf68ed8d8602e65.jpg);
+background-position: center;
+background-size: cover;
 }
 
 
