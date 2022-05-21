@@ -263,10 +263,7 @@ background-size: cover;
 
 }
 
-#link{
-    color: black;
-    text-decoration: none;
-}
+
 .imagen_grande_1{
 grid-row-end: span 45;
 background: url(https://i.pinimg.com/236x/b4/ae/21/b4ae215b133942bb5be598d2ff53de79.jpg);
