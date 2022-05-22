@@ -46,10 +46,15 @@ body{
     }
 
 }
-
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
 nav{
     overflow: hidden;
-    position: sticky;
+    position:sticky;
     top: 0;
     width: 100%;
 }
@@ -64,12 +69,12 @@ nav{
     'logo inicio hoy contenedor_buscador campana mensaje  imagen flecha '  ;
     background-color: white;
 }
+.sombreado:hover{
+    background-color: rgb(239 ,239, 239);
+     border-radius: 50%;
+     
+ }
 
-.general{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
 
 .logo{
     grid-area: logo;
@@ -95,7 +100,14 @@ nav{
     font-weight:bold;
   
 }
+.hoy{
 
+    grid-area: hoy;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   font-weight:bold;
+}
 
 .hoy_2{
     font-size: 16px;
@@ -105,24 +117,7 @@ nav{
     color: rgb(255, 255, 255);
 }
 
-
-.hoy{
-
-    grid-area: hoy;
-    font-size: 16px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-   font-weight:bold;
-}
-.sombreado:hover{
-    background-color: rgb(239 ,239, 239);
-     border-radius: 50%;
-     
- }
-
-.diseño_imagen:hover {
-  border: 5px solid rgb(115, 255, 187);
-  }        
+ 
 .contenedor_buscador{
     grid-area: contenedor_buscador;
     display: flex;
@@ -151,12 +146,13 @@ nav{
     color: rgb(113, 113, 113);
     margin: 8px;
 }
-.campana{
-    grid-area: campana;
-     color:  #767676;
-     fill: currentColor;
-    
-    
+.lupa{
+    height: 48px;
+    padding-left: 16px;
+    align-items: center;
+    color:  #767676;
+    fill: currentColor;
+ 
 }
 .lupa_2{
    
@@ -166,13 +162,12 @@ nav{
  
 }
 
-.lupa{
-    height: 48px;
-    padding-left: 16px;
-    align-items: center;
-    color:  #767676;
-    fill: currentColor;
- 
+.campana{
+    grid-area: campana;
+     color:  #767676;
+     fill: currentColor;
+    
+    
 }
 
 .mensaje{
@@ -216,6 +211,10 @@ height: 24px;
     border-radius: 16px;
 
 }
+
+.diseño_imagen:hover {
+    border: 5px solid rgb(115, 255, 187);
+    }    
 
 .imagen_pequeña_1{
     grid-row-end: span 26;
