@@ -46,12 +46,17 @@ body{
     }
 
 }
+@media screen {
+    .column {
+        flex: 200px;
+    }
+}
 .general{
     display: flex;
     justify-content: center;
     align-items: center;
  }
- 
+
 nav{
     overflow: hidden;
     position:sticky;
@@ -207,151 +212,88 @@ height: 24px;
 }
 
 .diseño_imagen{
-    margin: 2px 8px;
+    margin: 4px 8px;
     border-radius: 16px;
 
 }
 
 .diseño_imagen:hover {
-    border: 5px solid rgb(115, 255, 187);
+    border: 6px solid rgb(97, 164, 241);
     }    
 
-.imagen_pequeña_1{
-    grid-row-end: span 26;
-    background-image: url(https://i.pinimg.com/236x/48/99/7d/48997d29505fda6b407a0167c7cf63a3.jpg);
-   background-position: center;
-   background-size: cover;
 
+    img{
+        width: 100%;
+        border-radius: 20px;
+        cursor: zoom-in;
+    }
+    
+    .row{
+        display: flex;
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .column{
+        flex: 20%;
+        padding: 20px;
+    }
+    
+    .column img{
+        margin-top: 30px;
+    
+    }
+
+/***************************************/
+.date {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
-.imagen_pequeña_2{
-  grid-row-end: span 26;
-  background: url(https://i.pinimg.com/236x/47/f7/dd/47f7dd0a94e3bec5edad0ea4370a7807.jpg);
- background-position: center;
- background-size: cover;
-
+.title {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
-.imagen_pequeña_3{
-  grid-row-end: span 26;
-  background-image: url(https://i.pinimg.com/236x/6b/9a/91/6b9a91adda559cb1d284d8fdddd07b67.jpg);
- background-position: center;
- background-size: cover;
-
-}
-.imagen_pequeña_4{
-  grid-row-end: span 26;
-  background: url(https://i.pinimg.com/236x/88/2a/cd/882acdf8cad9931b722f18156365c9d3.jpg);
- background-position: center;
- background-size: cover;
-
+.grid_container {
+    display: grid;
+    grid-template-columns: 424px 322px;
+    gap: 40px;
+    padding: 10px;
+    place-content: center center;
 }
 
-.imagen_pequeña_5{
-grid-row-end: span 26;
-background: url(https://i.pinimg.com/236x/c0/1d/a5/c01da5598b9eacad6940f13642b31962.jpg);
-background-position: center;
-background-size: cover;
-
+.grid_item1 {
+    width: 424px;
+    height: 322px;
+    display: flex;
+    padding: 10px;
 }
 
-.imagen_pequeña_6{
-grid-row-end: span 26;
-background: url(https://i.pinimg.com/236x/68/f5/5e/68f55e3d4671baa78fe2cd4bb38daa42.jpg);
-background-position: center;
-background-size: cover;
-
-}
-
-.imagen_mediana_1 {
-    grid-row-end: span  33;
-    background: url(https://i.pinimg.com/236x/59/b3/61/59b361a68343fb447ac89614f11edceb.jpg);
+.grid_item4 {
+    border-radius: 25px;
     background-position: center;
     background-size: cover;
-
-}
-.imagen_mediana_2 {
-  grid-row-end: span  33;
-  background: url(https://i.pinimg.com/236x/07/dc/3b/07dc3ba7ceb1015ddb6ed70a714bb94c.jpg);
-  background-position: center;
-  background-size: cover;
-
-}
-
-.imagen_mediana_3 {
-  grid-row-end: span  33;
-  background:  url(https://i.pinimg.com/236x/5a/52/6b/5a526b063c1c9dfb1d2b49e31dfc38ca.jpg);
-  background-position: center;
-  background-size: cover;
-
+    background-repeat: no-repeat;
+    width: 408px;
+    height: 306px;
+    display: flex;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.imagen_mediana_4 {
-  grid-row-end: span  33;
-  background: url(https://i.pinimg.com/236x/95/07/88/95078832e7cc0e123eceb2db08b96a09.jpg);
-  background-position: center;
-  background-size: cover;
-
+.pie {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
 }
-.imagen_mediana_5 {
-grid-row-end: span  33;
-background: url(https://i.pinimg.com/236x/90/a9/1e/90a91efcace57bf85fdad9a7a9925374.jpg);
-background-position: center;
-background-size: cover;
-
-}
-
-.imagen_mediana_6 {
-grid-row-end: span  33;
-background: url( https://i.pinimg.com/236x/48/a2/20/48a2209f21ca14c416d02697ceaa49b1.jpg);
-background-position: center;
-background-size: cover;
-
-}
-
-
-.imagen_grande_1{
-grid-row-end: span 45;
-background: url(https://i.pinimg.com/236x/b4/ae/21/b4ae215b133942bb5be598d2ff53de79.jpg);
-background-position: center;
-background-size: cover;
- 
-}
-
-.imagen_grande_2{
-grid-row-end: span 45;
-background: url(https://i.pinimg.com/236x/26/7f/70/267f708abe63e73643a8a6df60fa9e82.jpg);
-background-position: center;
-background-size: cover;
-}
-
-.imagen_grande_3{
-grid-row-end: span 45;
-background: url(https://i.pinimg.com/236x/32/89/d6/3289d66aa73e11501081bcd78e845036.jpg);
- background-position: center;
-background-size: cover;
-}
-
-.imagen_grande_4{
-grid-row-end: span 45;
-background: url(https://i.pinimg.com/236x/9e/d5/26/9ed5265b95ad3c2fc07bf378c97690f6.jpg);
-background-position: center;
-background-size: cover;
-}
-
-.imagen_grande_5{
-grid-row-end: span 45;
-background: url(https://i.pinimg.com/236x/7e/c3/33/7ec3330b85055115fe0dd8738be1d509.jpg);
-background-position: center;
-background-size: cover;
-}
-
-.imagen_grande_6{
-grid-row-end: span 45;
-background: url(https://i.pinimg.com/236x/15/b3/c4/15b3c4ac15e4b6a0fdf68ed8d8602e65.jpg);
-background-position: center;
-background-size: cover;
-}
-
-
-
